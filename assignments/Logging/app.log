@@ -694,3 +694,13 @@ Traceback (most recent call last):
   File "C:\Users\DELL\AppData\Local\Temp\ipykernel_8276\383611511.py", line 14, in log_exception
     raise ZeroDivisionError
 ZeroDivisionError
+15-01-2026 09-52-07-root-ERROR-3038216480.py:20 - log_exception() - <class 'ZeroDivisionError'> exception occured
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_8276\3038216480.py", line 18, in log_exception
+    raise ZeroDivisionError
+ZeroDivisionError
+15-01-2026 09-57-53-root-ERROR-419657353.py:16 - log_exception - user=D session=abc123 - <class 'ZeroDivisionError'> exception occured
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Temp\ipykernel_8276\419657353.py", line 14, in log_exception
+    raise ZeroDivisionError()
+ZeroDivisionError
