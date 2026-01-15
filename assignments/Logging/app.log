@@ -3,3 +3,264 @@
 15-01-2026 05-31-33-root-DEBUG-This is a random log
 15-01-2026 05-45-35-root-INFO-This is a random log
 15-01-2026 05-46-04-root-INFO-This is a random log
+15-01-2026 05:53:47 - MyApp - DEBUG - This is a debug message
+15-01-2026 05-53-47-MyApp-DEBUG-This is a debug message
+15-01-2026 05:53:47 - MyApp - INFO - This is an info message
+15-01-2026 05-53-47-MyApp-INFO-This is an info message
+15-01-2026 05:53:47 - MyApp - WARNING - This is a warning message
+15-01-2026 05-53-47-MyApp-WARNING-This is a warning message
+15-01-2026 05-58-44-root-DEBUG-This is a random log
+15-01-2026 05-58-44-root-INFO-This is a random log
+15-01-2026 05-59-10-root-DEBUG-This is a random log
+15-01-2026 05-59-10-root-INFO-This is a random log
+15-01-2026 05-59-18-root-DEBUG-This is a random log
+15-01-2026 05-59-18-root-INFO-This is a random log
+15-01-2026 06-09-14-root-DEBUG-This is a random log
+15-01-2026 06-13-13-root-DEBUG-This is a random log
+15-01-2026 06-13-44-root-DEBUG-This is a random log
+15-01-2026 06-14-32-root-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+15-01-2026 06-18-26-log-DEBUG-This is a random log
+15-01-2026 06-20-50-root-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 06-28-48-log-DEBUG-This is a random log
+15-01-2026 06-28-58-root-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 06-29-08-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 06-30-06 - log - DEBUG - This is a random log
+15-01-2026 06-30-06-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 06-34-47 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 06-34-47 - log - DEBUG - This is a random log
+15-01-2026 06-34-47-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 06-37-13 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 06-37-13 - log - DEBUG - This is a random log
+15-01-2026 06-37-13-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 06-38-25 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 06-38-25 - log - DEBUG - This is a random log
+15-01-2026 06-38-25-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 06-42-00 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 06-42-00 - log - DEBUG - This is a random log
+15-01-2026 06-42-00-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 07-30-04 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 07-30-04 - log - DEBUG - This is a random log
+15-01-2026 07-30-04 - log - DEBUG - This is a random log
+15-01-2026 07-30-04-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 07-30-38 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 07-30-38 - log - DEBUG - This is a random log
+15-01-2026 07-30-38 - log - DEBUG - This is a random log
+15-01-2026 07-30-38-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 07-31-02 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 07-31-02 - log - DEBUG - This is a random log
+15-01-2026 07-31-02 - log - DEBUG - This is a random log
+15-01-2026 07-31-02-log-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+%d-%m-%Y %H-%M-%S
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+This is a random log
+15-01-2026 07-31-42 - log - DEBUG - This is a random log
+This is a random log
+15-01-2026 07-31-42 - log - DEBUG - This is a random log
+15-01-2026 07-31-42 - log - DEBUG - This is a random log
+15-01-2026 07-31-42-log-DEBUG-This is a random log
+15-01-2026 07-32-35-root-INFO-This is a random log
+15-01-2026 07-32-35-root-DEBUG-This is a random log
+15-01-2026 07-32-35-root-INFO-This is a random log
+15-01-2026 07:32:35 - MyApp - DEBUG - This is a debug message
+15-01-2026 07-32-35-MyApp-DEBUG-This is a debug message
+15-01-2026 07:32:35 - MyApp - INFO - This is an info message
+15-01-2026 07-32-35-MyApp-INFO-This is an info message
+15-01-2026 07:32:35 - MyApp - WARNING - This is a warning message
+15-01-2026 07-32-35-MyApp-WARNING-This is a warning message
+15-01-2026 07-32-35-root-DEBUG-This is a random log
+%d-%m-%Y %H-%M-%S
+15-01-2026 07-32-35-log-DEBUG-This is a random log
