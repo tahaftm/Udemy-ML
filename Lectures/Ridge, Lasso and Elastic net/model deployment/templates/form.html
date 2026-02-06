@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FWI Prediction Form</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(to right, #141e30, #243b55);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 35px;
+            border-radius: 16px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 14px;
+            opacity: 0.85;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        label {
+            font-size: 13px;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+        }
+
+        input:focus, select:focus {
+            outline: 2px solid #ff6b35;
+        }
+
+        .full-width {
+            grid-column: span 2;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 25px;
+            padding: 14px;
+            border-radius: 10px;
+            border: none;
+            background: #ff6b35;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #e85a28;
+        }
+
+        .footer-text {
+            text-align: center;
+            font-size: 12px;
+            opacity: 0.75;
+            margin-top: 15px;
+        }
+        .modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.65);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease;
+        }
+
+        .modal.show {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .modal-card {
+            background: #fff;
+            color: #333;
+            padding: 30px;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 380px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            animation: scaleIn 0.3s ease;
+        }
+
+        @keyframes scaleIn {
+            from { transform: scale(0.8); }
+            to { transform: scale(1); }
+        }
+
+        .modal-card h2 {
+            margin-bottom: 10px;
+        }
+
+        .prediction {
+            font-size: 36px;
+            font-weight: bold;
+            color: #ff6b35;
+            margin: 15px 0;
+        }
+
+        .close-btn {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+            background: #141e30;
+            color: #fff;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="form-container">
+    <h1>🔥 FWI Prediction</h1>
+    <p class="subtitle">Enter meteorological and fire indices</p>
+
+    <form action="/predict-form" method="POST"> 
+        <div class="grid">
+
+            <div>
+                <label>Temperature (°C)</label>
+                <input type="number" step="0.1" name="Temperature" required>
+            </div>
+
+            <div>
+                <label>Relative Humidity (RH %)</label>
+                <input type="number" step="0.1" name="RH" required>
+            </div>
+
+            <div>
+                <label>Wind Speed (Ws)</label>
+                <input type="number" step="0.1" name="Ws" required>
+            </div>
+
+            <div>
+                <label>Rain (mm)</label>
+                <input type="number" step="0.1" name="Rain" required>
+            </div>
+
+            <div>
+                <label>FFMC</label>
+                <input type="number" step="0.1" name="FFMC" required>
+            </div>
+
+            <div>
+                <label>DMC</label>
+                <input type="number" step="0.1" name="DMC" required>
+            </div>
+
+            <div>
+                <label>ISI</label>
+                <input type="number" step="0.1" name="ISI" required>
+            </div>
+
+            <div>
+                <label>Classes</label>
+                <select name="Classes" required>
+                    <option value="">Select Class</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Not Fire">Not Fire</option>
+                </select>
+            </div>
+
+            <div class="full-width">
+                <label>Region</label>
+                <select name="Region" required>
+                    <option value="">Select Region</option>
+                    <option value="Bejaia">Bejaia Region</option>
+                    <option value="Sidi-Bel Abbes">Sidi-Bel Abbes Region</option>
+                </select>
+            </div>
+
+        </div>
+
+        <button type="submit">Predict Fire Weather Index</button>
+    </form>
+
+    <p class="footer-text">
+        Machine Learning Based Wildfire Risk Assessment
+    </p>
+</div>
+
+{% if prediction is defined %}
+<div class="modal show" id="resultModal">
+    <div class="modal-card">
+        <h2>🔥 Prediction Result</h2>
+        <p>Fire Weather Index</p>
+        <div class="prediction">{{ prediction }}</div>
+        <button class="close-btn" onclick="closeModal()">Close</button>
+    </div>
+</div>
+{% endif %}
+
+<script>
+    function closeModal() {
+        document.getElementById("resultModal").classList.remove("show");
+    }
+</script>
+
+</body>
+</html>
